@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Digital Services</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Digital Service<span>.</span>
+            </a>
+
+            <div class="nav-right">
+
+                <ul class="nav-links" id="navLinks">
+
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="active">Contact</a>
+                    </li>
+
+                </ul>
+
+                <!-- Dark / Light Mode -->
+                <button class="theme-toggle" id="themeToggle"
+                    aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+
+                <!-- Mobile Menu -->
+                <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation menu">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- ================= CONTACT PAGE ================= -->
+    <main>
+
+        <!-- Page Hero -->
+        <section class="page-hero">
+
+            <div class="page-hero-content">
+
+                <p class="hero-subtitle">
+                    <i class="fas fa-sparkles"></i>
+                    Let's Connect
+                </p>
+
+                <h1>
+                    Get In <span>Touch</span>
+                </h1>
+
+                <p>
+                    Have a project, question or idea?
+                    We'd love to hear from you.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section class="contact-section section">
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+
+                <p class="section-subtitle">
+                    Contact Us
+                </p>
+
+                <h2>
+                    Let's Create Something
+                    <span>Great.</span>
+                </h2>
+
+                <p class="contact-description">
+                    Tell us a little about your idea and we'll
+                    get back to you as soon as possible.
+                </p>
+
+
+                <div class="contact-details">
+
+                    <div class="contact-detail">
+
+                        <div class="contact-detail-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <h3>Email</h3>
+                            <p>parasqureshi98@gmail.com</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <div class="contact-detail-icon">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <h3>Location</h3>
+                            <p>Hyderabad, Pakistan</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-detail">
+
+                        <div class="contact-detail-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+
+                        <div>
+                            <h3>Working Hours</h3>
+                            <p>Mon - Fri, 9:00 AM - 6:00 PM</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Social Links -->
+                <div class="contact-social">
+
+                    <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="https://www.instagram.com/paras_qureshii/?hl=en" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/paras-qureshi-65b89837a/" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/Parasqureshi13" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= CONTACT FORM ================= -->
+            <div class="contact-form-wrapper">
+
+                <form id="contactForm" novalidate>
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            autocomplete="name">
+
+                        <small class="error-message" id="nameError"></small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email">
+
+                        <small class="error-message" id="emailError"></small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Your Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Write your message here..."></textarea>
+
+                        <small class="error-message" id="messageError"></small>
+
+                    </div>
+
+
+                    <button type="submit" class="btn primary-btn submit-btn">
+                        Send Message
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+
+
+                    <!-- Success Message -->
+                    <div class="success-message" id="successMessage">
+
+                        <i class="fas fa-circle-check"></i>
+
+                        <div>
+                            <strong>Message Sent!</strong>
+                            <p>
+                                Thank you! Your message has been
+                                submitted successfully.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+        <section class="cta-section">
+
+            <div class="cta-content">
+
+                <p class="section-subtitle">
+                    Let's Talk
+                </p>
+
+                <h2>
+                    Your Next Idea
+                    <span>Starts Here.</span>
+                </h2>
+
+                <p>
+                    Let's create something meaningful together.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    Digital Service<span>.</span>
+                </a>
+
+                <p>
+                    Creating meaningful digital experiences
+                    through creativity and technology.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                   <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="https://www.instagram.com/paras_qureshii/?hl=en" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/paras-qureshi-65b89837a/" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/Parasqureshi13" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Digital Services. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
