@@ -85,7 +85,7 @@ No backend is required for this project.
 ## 🔗 Live Website
 
 **Live Demo:**
-https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/
+https://parasqureshi13.github.io/Internify_task3/
 
 ## 👩‍💻 Author
 
